@@ -7,7 +7,7 @@ ADT-Templates
 
 Installing templates is easy. Just download the code and copy it to 
 
-    `<sdk-dir>\tools\templates\<template-type-dir>\`
+    <sdk-dir>\tools\templates\<template-type-dir>\
 
 That will be enough.
 
@@ -19,3 +19,7 @@ Depending upon what type of template it is, you can find it in **Android Object*
 
 If it is a normal template, it will be available as _Android Object_ and if it is activity template then it will be as both, while creating new Application and as _Android Object_.
 
+
+
+
+![Wow](https://github.com/lkmhr/ADT-Templates/blob/master/wow.png "Such Easy, WOW")Such easy, WoW.
