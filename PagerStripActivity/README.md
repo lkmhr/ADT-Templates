@@ -11,7 +11,7 @@ It, being a template, is a baked and ready-to-use code which you only need to in
 
 Just download the code and copy the directory to 
 
-    `<sdk-dir>\tools\templates\activities\`
+    <sdk-dir>\tools\templates\activities\
 
 Now you are good to go.
 
@@ -29,4 +29,5 @@ You can, of course, using *PagerStripActivity* as *Android Object*. To do so,
 - Now from the list of templates, select *PagerStrip Activity* and hit _Next_
 - Fill the form and _Finish_.
 
-*This is my first ADT Template.*
+<hr/>
+PS : *This is my first ADT Template.*
