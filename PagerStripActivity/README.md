@@ -21,7 +21,7 @@ After you've successfully copied the template, it will be available in the **_Cr
 
 Tadaaa!!!
 
-You can, of course, using *PagerStripActivity* as *Android Object*. To do so,
+You can, of course, use *PagerStripActivity* as *Android Object*. To do so,
 
 - Right click on your project.
 - Select _New>Other..._
