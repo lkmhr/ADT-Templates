@@ -25,3 +25,6 @@ After you've successfully copied the template, it will be available as *Android 
 - Fill the form and _Finish_.
 
 That's all. :sunglasses:
+
+<hr/>
+*This template is derived from ListFragment template*
