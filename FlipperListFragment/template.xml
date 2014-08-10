@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="2"
+    name="Fragment (List with Flipper)"
+    description="Creates a new empty fragment containing a list with View Flipper."
+    minApi="7"
+    minBuildApi="8">
+
+    <category value="Fragment" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <parameter
+        id="objectKind"
+        name="Object Kind"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Item"
+        help="Other examples are 'Word', 'Name', etc." />
+    
+    <parameter
+        id="includeInterface"
+        name="Include fragment factory methods?"
+        type="boolean"
+        default="true"
+        help="Generate interface to allow the Fragment to communicate up to its Activity." />
+    
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>templates_flipper_list_fragment.png</thumb>
+    </thumbs>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
